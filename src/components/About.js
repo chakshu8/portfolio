@@ -32,8 +32,12 @@ class About extends Component {
                 </a>
               </div>
             </div>
-            <div>
-              <img className="" src="./logo192.png" alt="image" />
+            <div className="lg:mx-w-lg lg:w-full md:w-1/2 w-5/6">
+              <img
+                className="object-cover object-center rounded"
+                src="./logo192.png"
+                alt="image"
+              />
             </div>
           </div>
         </section>
